@@ -3,7 +3,7 @@
         "servico": "Mutirão de Catarata",
         "descricao": "Cirurgias gratuitas para idosos.",
         "vagas": "120 vagas",
-        "imagem": "/imagens/catarata.jpg"
+        "imagem": "/imagens/olhos.jpg"
     },
     {
         "servico": "Vacinação Drive-Thru",
@@ -15,13 +15,13 @@
         "servico": "Odontologia Corujão",
         "descricao": "Atendimento noturno.",
         "vagas": "80 vagas",
-        "imagem": "/imagens/odonto.jpg"
+        "imagem": "/imagens/dentista.jpg"
     },
     {
         "servico": "Consulta Pediátrica",
         "descricao": "Atendimento infantil.",
         "vagas": "50 consultas",
-        "imagem": "/imagens/pediatria.jpg"
+        "imagem": "/imagens/pediatra.jpg"
     },
     {
         "servico": "Mamografia Preventiva",
@@ -33,6 +33,6 @@
         "servico": "Fisioterapia SUS",
         "descricao": "Reabilitação motora.",
         "vagas": "40 vagas",
-        "imagem": "/imagens/fisio.jpg"
+        "imagem": "/imagens/fisioterapia.jpg"
     }
 ]

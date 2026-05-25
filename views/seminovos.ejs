@@ -3,32 +3,41 @@
 
 <head>
     <title>Seminovos</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-
+    <nav>
+        <a href="/">Home</a>
+        <a href="/quemsou">Quem Sou</a>
+        <a href="/ofertas">Ofertas</a>
+        <a href="/novos">Novos</a>
+        <a href="/seminovos">Seminovos</a>
+    </nav>
     <h1>Auditoria das Unidades</h1>
+    <div class="container">
 
-    <% seminovos.forEach(unidade=> { %>
+        <% seminovos.forEach(unidade=> { %>
 
-        <div>
-            <h2>
-                <%= unidade.unidade %>
-            </h2>
+            <div class="card">
+                <h2>
+                    <%= unidade.unidade %>
+                </h2>
 
-            <p>
-                <strong>Ponto Forte:</strong>
-                <%= unidade.positivo %>
-            </p>
+                <p>
+                    <strong>Ponto Forte:</strong>
+                    <%= unidade.positivo %>
+                </p>
 
-            <p>
-                <strong>Problema:</strong>
-                <%= unidade.negativo %>
-            </p>
-        </div>
+                <p>
+                    <strong>Problema:</strong>
+                    <%= unidade.negativo %>
+                </p>
+            </div>
 
-        <% }) %>
-
+            <% }) %>
+    </div>
+    <a href="/" class="botao-voltar">Voltar</a>
 </body>
 
 </html>

@@ -3,26 +3,37 @@
 
 <head>
     <title>Novos</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/quemsou">Quem Sou</a>
+        <a href="/ofertas">Ofertas</a>
+        <a href="/novos">Novos</a>
+        <a href="/seminovos">Seminovos</a>
+    </nav>
 
     <h1>Novidades do SUS</h1>
+    <div class="container">
 
-    <% novos.forEach(item=> { %>
+        <% novos.forEach(item=> { %>
 
-        <div>
-            <img src="<%= item.imagem %>" width="250">
-            <h2>
-                <%= item.nome %>
-            </h2>
-            <p>
-                <%= item.descricao %>
-            </p>
-        </div>
+            <div class="card">
+                <img src="<%= item.imagem %>" width="250">
+                <h2>
+                    <%= item.nome %>
+                </h2>
+                <p>
+                    <%= item.descricao %>
+                </p>
+            </div>
 
-        <% }) %>
-
+            <% }) %>
+    </div>
+    <br>
+    <a href="/" class="botao-voltar">Voltar</a>
 </body>
 
 </html>
