@@ -7,9 +7,6 @@ O sistema organiza informações sobre serviços, unidades de saúde e novos rec
 
 ## 🚀 Tecnologias utilizadas
 
-- :contentReference[oaicite:0]{index=0}
-- :contentReference[oaicite:1]{index=1}
-- :contentReference[oaicite:2]{index=2}
 - HTML5
 - CSS3
 - JSON
