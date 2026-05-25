@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Novos</title>
+</head>
+
+<body>
+
+    <h1>Novidades do SUS</h1>
+
+    <% novos.forEach(item=> { %>
+
+        <div>
+            <img src="<%= item.imagem %>" width="250">
+            <h2>
+                <%= item.nome %>
+            </h2>
+            <p>
+                <%= item.descricao %>
+            </p>
+        </div>
+
+        <% }) %>
+
+</body>
+
+</html>

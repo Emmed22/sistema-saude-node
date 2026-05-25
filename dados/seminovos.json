@@ -1,0 +1,32 @@
+[
+    {
+        "unidade": "UBS Central",
+        "positivo": "Bom atendimento",
+        "negativo": "Falta de medicamentos"
+    },
+    {
+        "unidade": "UPA Sul",
+        "positivo": "Atendimento rápido",
+        "negativo": "Poucos médicos"
+    },
+    {
+        "unidade": "Hospital Municipal",
+        "positivo": "Boa estrutura",
+        "negativo": "Fila longa"
+    },
+    {
+        "unidade": "UBS Jardim",
+        "positivo": "Equipe atenciosa",
+        "negativo": "Poucas vacinas"
+    },
+    {
+        "unidade": "UPA Norte",
+        "positivo": "Plantão 24h",
+        "negativo": "Equipamentos antigos"
+    },
+    {
+        "unidade": "Hospital Vida",
+        "positivo": "UTI moderna",
+        "negativo": "Superlotação"
+    }
+]

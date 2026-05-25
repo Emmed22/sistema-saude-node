@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ofertas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <h1> Serviços Disponiveis</h1>
+    <div class="container">
+        <% ofertas.forEach(oferta=>{ %>
+            <div class="card">
+                <img src="<%= oferta.imagem%>">
+                <h2>
+                    <%= oferta.servico %>
+                </h2>
+                <p>
+                    <%= oferta.descricao %>
+                </p>
+                <strong>
+                    <%= oferta.vagas %>
+                </strong>
+            </div>
+
+            <%}) %>
+    </div>
+</body>
+
+</html>

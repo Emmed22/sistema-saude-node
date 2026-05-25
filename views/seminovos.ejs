@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Seminovos</title>
+</head>
+
+<body>
+
+    <h1>Auditoria das Unidades</h1>
+
+    <% seminovos.forEach(unidade=> { %>
+
+        <div>
+            <h2>
+                <%= unidade.unidade %>
+            </h2>
+
+            <p>
+                <strong>Ponto Forte:</strong>
+                <%= unidade.positivo %>
+            </p>
+
+            <p>
+                <strong>Problema:</strong>
+                <%= unidade.negativo %>
+            </p>
+        </div>
+
+        <% }) %>
+
+</body>
+
+</html>

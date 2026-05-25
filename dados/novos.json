@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "UPA Zona Norte",
+        "descricao": "Nova unidade 24h.",
+        "imagem": "/imagens/upa.jpg"
+    },
+    {
+        "nome": "Tomógrafo Digital",
+        "descricao": "Equipamento moderno.",
+        "imagem": "/imagens/tomografo.jpg"
+    },
+    {
+        "nome": "Medicamento X",
+        "descricao": "Novo medicamento incorporado.",
+        "imagem": "/imagens/remedio.jpg"
+    },
+    {
+        "nome": "Ambulância SAMU",
+        "descricao": "Nova frota.",
+        "imagem": "/imagens/ambulancia.jpg"
+    },
+    {
+        "nome": "Hospital Regional",
+        "descricao": "Nova ala cirúrgica.",
+        "imagem": "/imagens/hospital.jpg"
+    },
+    {
+        "nome": "Raio-X Digital",
+        "descricao": "Diagnóstico rápido.",
+        "imagem": "/imagens/raiox.jpg"
+    }
+]
